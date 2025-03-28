@@ -36,15 +36,44 @@ nav{
      cursor: pointer;
      /* color: white; */
      /* text-decoration: none; */
-}   
-#search_bar{
+} 
+#tab a {
+    text-decoration: none;
+    color: white;
+} 
+
+ /* #search_bar{
     margin: 50px;
     width: 12%;
     position: relative;
     left: 20%;
     /* border: 1px solid black; */
-    /* border-radius: 12px; */
-}
+    /* border-radius: 12px; */    
+ .in{
+    display: flex;
+    position: relative;
+    left: 47%;
+    top: 29%;
+    font-size: 1.3vw;
+    
+    
+ }  
+ #signin{
+    /* border: 1px solid black; */
+    margin: 1vw;
+ }  
+ #signin a {
+    text-decoration: none;
+    color: white;
+}  
+ #login{
+    /* border: 1px solid black; */
+    margin: 1vw; 
+ }      
+ #login a {
+    text-decoration: none;
+    color: white;
+}   
 main{
     background-color: #cfe856;
 }
